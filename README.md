@@ -1,7 +1,7 @@
 # sun_is_shiny
 Compute the impact of a neighbouring building on the sunlight duration in your flat.
-The current version works only for Berlin coordinates, with a 5 minutes step over one year.
-Use the script create.sun.position(lat,lon) function to generate your own sun data.
+The default script works for Berlin coordinates, with a 5 minutes step over one year.
+Use the `create.sun.position(location.name, lat,lon)` function to generate your own sun data.
 
 
 ## installation
