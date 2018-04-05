@@ -1,7 +1,9 @@
 library(lubridate)
 library(maptools)
 
-positions.sun <- read.csv('positions_sun_berlin.csv')
+sun.positions.file.name <- 'positions_sun_newyork.csv'
+
+positions.sun <- read.csv(sun.positions.file.name)
 positions.sun$date <- as.POSIXct(positions.sun$date)
 start.date <- min(positions.sun$date)
 end.date <- max(positions.sun$date)
