@@ -1,0 +1,10 @@
+name: shiny2
+title:
+username:
+account: clementlefevre
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 314242
+bundleId: 1299517
+url: https://clementlefevre.shinyapps.io/shiny2/
+when: 1522749639.80463
